@@ -190,11 +190,13 @@ h1 {
 
 
 
-@media (max-width: 991px) {
+@media only screen and (max-width: 991px) {
     .card {
         width: 100%;
         margin-bottom: 20px
     }
+        
+    
 
     .yoyo5 {
         width: 100%;
@@ -220,6 +222,12 @@ h1 {
     .card-container {
 
         display: block;
+
+    }
+    
+    .top {
+
+        height: 550px;
 
     }
     .m-footer{
